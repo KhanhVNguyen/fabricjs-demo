@@ -83,6 +83,7 @@ function App() {
       );
 
       canvas?.requestRenderAll();
+      canvas?.renderAll();
     });
   };
 
@@ -227,12 +228,12 @@ function App() {
                     className="bg-blue-500 hover:bg-blue-700 text-white font-bold  rounded-md"
                     onClick={(e) => {
                       setPattern(
-                        "https://i.pinimg.com/564x/23/17/f5/2317f526fa1e7757e1237980555287ce.jpg"
+                        "https://cdn.pixabay.com/photo/2023/04/14/05/56/dry-7924180_1280.jpg"
                       );
                     }}
                   >
                     <img
-                      src="https://i.pinimg.com/564x/23/17/f5/2317f526fa1e7757e1237980555287ce.jpg"
+                      src="https://cdn.pixabay.com/photo/2023/04/14/05/56/dry-7924180_1280.jpg"
                       alt=""
                       style={{
                         width: "80px",
@@ -246,12 +247,12 @@ function App() {
                     className="bg-blue-500 hover:bg-blue-700 text-white font-bold  rounded-md"
                     onClick={(e) => {
                       setPattern(
-                        "https://i.pinimg.com/564x/a4/4f/19/a44f197958fb1fcc2de6d04d33e2828b.jpg"
+                        "https://cdn.pixabay.com/photo/2023/04/13/07/23/plants-7921905_1280.jpg"
                       );
                     }}
                   >
                     <img
-                      src="https://i.pinimg.com/564x/a4/4f/19/a44f197958fb1fcc2de6d04d33e2828b.jpg"
+                      src="https://cdn.pixabay.com/photo/2023/04/13/07/23/plants-7921905_1280.jpg"
                       alt=""
                       style={{
                         width: "80px",
@@ -265,12 +266,12 @@ function App() {
                     className="bg-blue-500 hover:bg-blue-700 text-white font-bold  rounded-md"
                     onClick={(e) => {
                       setPattern(
-                        "https://i.pinimg.com/564x/c3/a2/4d/c3a24d669f7023eaae3132d40b7181e7.jpg"
+                        "https://cdn.pixabay.com/photo/2023/04/10/09/32/door-knocker-7913270_1280.jpg"
                       );
                     }}
                   >
                     <img
-                      src="https://i.pinimg.com/564x/c3/a2/4d/c3a24d669f7023eaae3132d40b7181e7.jpg"
+                      src="https://cdn.pixabay.com/photo/2023/04/10/09/32/door-knocker-7913270_1280.jpg"
                       alt=""
                       style={{
                         width: "80px",
